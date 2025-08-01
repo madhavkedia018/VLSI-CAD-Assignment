@@ -10,7 +10,7 @@ This assignment focuses on **rectangle-based layout parsing**, **spatial analysi
 
 ###  Problems Solved
 
-1. **Visualize Rectangles** – Read rectangle data and plot all shapes using `matplotlib`.
+1. **Visualize Rectangles** – Read rectangle data and plot all shapes using matplotlib.
 2. **Point-In-Polygon** – Determine if a user-input point lies inside one or more rectangles.
 3. **Non-Overlapping Rectangles** – Identify and plot rectangles that do not overlap with any other.
 4. **Partially Overlapping Rectangles** – Detect and visualize pairs of rectangles that intersect.
