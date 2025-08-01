@@ -2,6 +2,7 @@
 
 Welcome to the repository for the VLSI Computer-Aided Design (CAD) assignments developed as part of the **VLSI CAD course** at **NITK Surathkal**. This repository contains Python-based solutions for **geometric layout analysis** and **Steiner tree construction** using modular, efficient, and visually rich implementations.
 
+---
 
 ##  Assignment 1 – Layout Geometry Analysis
 
