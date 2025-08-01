@@ -1,0 +1,21 @@
+Develop python codes in modular fashion to perform the following functions as listed later in this text.
+Using the keyboard accept a filename. Read data corresponding to the rectangular objects from this file. The file contains an array of rectangles in the file test_data_assignment_1.txt. The following is the format of the representation of rectangle:
+{rectangle_id, left_bottom_corner_x_coordinate, left_bottom_corner_y_coordinate, right_top_corner_x_coordinate, right_top_corner_y_coordinate}.
+
+At the end of solution to each of the question, compute and print the memory usage and time taken to execute the code.
+
+Problems to be solved using Python:
+
+Q1) Using matplotlib or any other suitable library and display the rectangle/s graphically in the Jupyter IDE/ Google Colab. 
+
+Q2) Accept input {x, y} from the keyboard. Plot all the rectangles read and plot this point in the same graphical window. Print if this point lies within any of the rectangles in the given test data set. If yes then list the rectangles enclosing the given point in the format {rectangle_id, rectangle_id, rectangle_id, ... rectangle_id}. Eg: {1, 5, 8} implies that given point(x, y) is enclosed in the rectangles 1, 5 and 8.
+
+Q3) Print the list of rectangles that don't have any overlap (partially or fully or contained) with any other rectangles. The output should be in the format {rectangle_id, rectangle_id, rectangle_id, ... rectangle_id}. Also plot these non-overlapping rectangle in a new graphical window.
+
+Q4) Print the list of rectangles that overlap partially with other rectangles in the format {{rectangle_id, list_of_rectangle_ids_which_are_overlapping_with_it}, {rectangle_id, list_of_rectangle_ids_which_are_overlapping_with_it}, ..... {rectangle_id, list_of_rectangle_ids_which_are_overlapping_with_it}}. Eg: {{5, 7, 9, 12}, {6, 10, 12}} implies that rectangle 5 overlaps with rectangles 7, 9 and 12; rectangle 6 overlaps with rectangles 10 and 12. Also plot these overlapping rectangle in a new graphical window.
+
+Q5) Print the list of rectangles that contain other rectangles in the format {rectangle_id, list_of_rectangle_ids_which_are_contained_in}. Eg: {{5, 2, 6}, {4, 3, 9}} implies that rectangle 5 contains rectangles 2 and 6; rectangle 4 contains rectangles 3 and 9. Also plot these contained rectangles in a new graphical window.
+
+Q6) Print the list the rectangles that are abutting externally with each other in the following format {rectangle_id, which side_(e, w, n, s), rectangle_id_of_abutting_rectangle_id}
+Eg: {{5, n, 7}, {4, e, 3}} implies that rectangle 5 has rectangle 7 abutting it on the northern side, rectangle 4 has rectangle 3 abutting it on the eastern side. Also Plot these abutting rectangles in a new graphical window.
+
