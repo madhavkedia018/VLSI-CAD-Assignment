@@ -1,0 +1,17 @@
+
+Data given: A set of nodes in a circuit layout and their coordinates in the following format {number of nodes n, x1, y1, x2, y2, x3, y3, ...xn, yn}.
+
+At the end of solution to each of the question, compute and print the memory usage and time taken to execute the code.
+
+
+1. Determine the coordinates of the optimal trunk for the Steiner tree that minimizes the total wire length. The solution should consider the Manhattan distance between nodes to simulate wire routing. Assume the clock generator is placed at the left most end of the trunk, find the critical net of the final Steiner Tree. You may use Elmore's delay model to find the delay of each segment of wire. Assume all the wires are on the same metal layer (M1) and the width of each segment of wire is 1unit. The resistance is 1 Ohm per unit length and 1fF per unit length of wire.
+Print the coordiantes of the trunk in the format {x1, y1, x2, y2}. Also plot the final Steiner tree with the length of each segment and delay marked along each segment. Mark the given points and the steiner points with different colors.
+
+
+2. In the above problem statement the clock generator is placed at the left most end of the trunk ad the delay from the clock generator to each node is calculated. Now for the Steiner tree created in the above problem, identify a new location for the placemnt of the clock generator such that the clock skew is minimal. The new location of the clock generator need not exist on the steiner tree, it could could be at any new point other than the gievn points in the list, and connected separately to the steiner tree using one or more segments of wire. Assume that the delay introduced by these additional segments of wire is zero. Print the coordinates of the clock generator in the format {x, y}. Plot the steiner tree with the clock generator.
+
+
+3. Generate a set of random number of points {x, y}. Group the generated points into  suitable number of clusters based on a suitable clsutering algorithm. Create a Steiner tree with multiple trunks. Plot the Steiner tree.
+
+
+
